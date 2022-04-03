@@ -51,3 +51,34 @@ body {
     display: flex;
 }
 
+.barra-bottom {
+    height: 92px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-bottom > button {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #ffffff;
+
+    background-color: #cbcbcb;
+    display: flex;
+    width: 90%;
+    height: 61px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: none;
+}
