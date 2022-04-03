@@ -1,7 +1,16 @@
 body {
-    margin-top: 92px;
+    padding-top: 92px;
     background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    padding-left: 19px;
+    width: 360px;
+    height: 740px;
+    overflow: hidden;
 }
+
+
+/* barra topo */
 
 .titulo-secao {
     font-family: 'Righteous';
@@ -11,6 +20,7 @@ body {
     color: #333333;
     font-style: normal;
     letter-spacing: 0.018em;
+    padding-bottom: 4px;
 }
 
 .barra-topo {
@@ -42,6 +52,9 @@ body {
     color: #ffffff;
 }
 
+/* barra topo */
+/* pratos, bebidas e sobremesas */
+
 .descricao-item {
     font-family: 'Roboto';
     font-size: 15px;
@@ -50,6 +63,73 @@ body {
     color: #a6a6a6;
     display: flex;
 }
+
+.secao-pratos {
+    margin-top: 31px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 180px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
+}
+
+.produto {
+    border-radius: 9px;
+    width: 150px;
+    height: 170px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.produto > h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #333333;
+    padding-top: 5px;;
+}
+
+.produto > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #a6a6a6;
+    padding-top: 5px;
+}
+
+.produto > h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.produto > img {
+    padding-top: 10px;
+    width: 92%;
+    height: 40%;
+    border-radius: 4px;
+}
+
+/* pratos, bebidas e sobremesas */
+/* barra bottom */
 
 .barra-bottom {
     height: 92px;
@@ -82,3 +162,6 @@ body {
     border-radius: 50px;
     border: none;
 }
+
+/* barra bottom */
+
