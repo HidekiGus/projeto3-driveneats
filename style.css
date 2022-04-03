@@ -1,0 +1,53 @@
+body {
+    margin-top: 92px;
+    background-color: #e5e5e5;
+}
+
+.titulo-secao {
+    font-family: 'Righteous';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #333333;
+    font-style: normal;
+    letter-spacing: 0.018em;
+}
+
+.barra-topo {
+    width: 100%;
+    height: 92px;
+    position: fixed;
+    background-color: #cf2b2b;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.3);
+    padding-left: 21px;
+    padding-top: 8px;
+}
+
+.barra-topo > .titulo-secao {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+}
+
+.descricao-barra-topo {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.descricao-item {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #a6a6a6;
+    display: flex;
+}
+
